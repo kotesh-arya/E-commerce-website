@@ -1,0 +1,64 @@
+@import url("https://handy-ui.netlify.app/css/components.css");
+@import url("/colours.css");
+
+.navigation-container {
+    padding: 0.5rem;
+}
+
+.nav-header {
+    padding: 0.5rem;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.header-icon {
+    margin: 0.5rem;
+}
+
+.home-main-content {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-buttons {
+    margin: 2rem;
+}
+
+.link-buttons {
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin: 1rem;
+    box-shadow: 1px 3px 6px grey;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header-huge {
+    font-size: 5rem;
+    color: var(--primary-color);
+}
+
+.header-large {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.log-in-btn {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.log-in-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transition: 0.2s ease-in-out;
+}

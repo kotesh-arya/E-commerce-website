@@ -72,16 +72,16 @@ body {
 .filter-section-col {
     display: flex;
     flex-direction: column;
-    width: 27%;
+    width: 40rem;
     background-color: var(--white);
 }
 
 .price-slider {
-    padding: 10px 2rem;
+    padding: 0.8rem 2rem;
 }
 
 .rating-container {
-    padding: 10px 3rem;
+    padding: 0.6rem 3rem;
     font-size: 1.5rem;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .sorting-container {
-    padding: 10px 3rem;
+    padding: 0.6rem 3rem;
     font-size: 1.5rem;
 }
 
@@ -121,7 +121,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 3rem;
+    padding: 0.6rem 3rem;
     font-size: 1.5rem;
 }
 

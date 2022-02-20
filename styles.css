@@ -1,10 +1,6 @@
 @import url("https://handy-ui.netlify.app/css/components.css");
 @import url("/colours.css");
 
-.navigation-container {
-    padding: 0.5rem;
-}
-
 .nav-header {
     padding: 0.5rem;
 }
@@ -12,7 +8,9 @@
 .main-links {
     display: flex;
     justify-content: space-between;
-    width: 10%;
+}
+.nav-icon-link{
+    text-decoration: none;
 }
 
 .header-icon {

@@ -49,3 +49,7 @@
     width: 90%;
     margin: 1rem auto;
 }
+.login-link{
+    text-decoration:none;
+    color: var(--black);
+}

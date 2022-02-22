@@ -141,14 +141,14 @@ body {
 }
 
 .footer .card-footer-link-buy {
-    padding: 1rem;
+    padding: 8px;
     background-color: var(--primary-color);
     color: var(--white);
     text-align: center;
 }
 
 .footer .card-footer-link {
-    padding: 1rem;
+    padding: 6px;
     background-color: var(--white);
     color: var(--black);
     border: 2px solid var(--primary-color);

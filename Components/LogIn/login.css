@@ -57,3 +57,13 @@
     width: 90%;
     margin: 1rem auto;
 }
+
+.home-page-link{
+    padding: 0.8rem 7rem;
+    text-decoration: none;
+    color: var(--white);
+}
+.signup-link{
+    text-decoration:none;
+    color: var(--black);
+}

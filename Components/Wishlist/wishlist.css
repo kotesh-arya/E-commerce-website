@@ -44,7 +44,9 @@ body {
     border: none;
     padding: 0px;
 }
-
+.badge .number-one{
+    background-color: var(--badge-bg-color);
+}
 .number-one {
     background-color: var(--alert-primary);
     height: 1.3rem;

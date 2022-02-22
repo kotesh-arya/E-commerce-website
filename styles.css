@@ -11,12 +11,15 @@
 }
 .nav-icon-link{
     text-decoration: none;
+    margin: 0 5px;
 }
 
 .header-icon {
     margin: 0.5rem;
 }
-
+.navigation-container{
+    padding: 0.5rem;
+}
 .home-main-content {
     height: 65vh;
     display: flex;

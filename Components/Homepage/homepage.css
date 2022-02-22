@@ -30,9 +30,11 @@ body {
 .basic {
     border: 0px;
 }
-
+.badge .number-one{
+    background-color: var(--badge-bg-color);
+}
 .number-one {
-    background-color: var(--alert-primary);
+    
     height: 1.3rem;
     width: 1.3rem;
     border-radius: 50%;
@@ -53,6 +55,15 @@ body {
     color: var(--black);
     padding: 1rem;
     margin: 1rem;
+}
+ .banner-text .shop-button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    position: absolute;
+    font-weight: var(--bolder-font-weight);
 }
 
 .nav-icon-link {

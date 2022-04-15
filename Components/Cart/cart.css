@@ -35,9 +35,6 @@ body {
     width: 70%;
 }
 
-
-
-
 .badge .number-one {
     background-color: var(--badge-bg-color);
 }
@@ -125,21 +122,22 @@ body {
 .price-card-item {
     list-style-type: none;
     padding: 10px;
+    float: right;
 }
 
 .final-price {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-
 }
 
 .money-save-text {
     text-align: center;
     font-size: var(--meduim-font-size);
-    padding-top: 1.5rem;
+    padding-top: 2rem;
 }
-.place-order-btn{
+
+.place-order-btn {
     border-radius: 5px;
     cursor: pointer;
 }
@@ -157,15 +155,18 @@ body {
 .light-text {
     color: var(--grey);
 }
-.cart-card-buttons{
+
+.cart-card-buttons {
     display: flex;
     flex-direction: row;
 }
-.remove-btn{
+
+.remove-btn {
     background-color: var(--white);
     color: var(--primary-color);
     border: 1.5px solid var(--primary-color);
 }
+
 .cart-card-button {
     width: 8rem;
     margin-left: 0px;

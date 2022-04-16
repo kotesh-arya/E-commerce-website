@@ -1,17 +1,14 @@
-body {
-    background-color: var(--example-bg-color);
-}
-
 .logo-input {
     display: flex;
-    width: 70%;
+    width: 18%;
 }
 
 .search-input-container {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 30rem;
     padding: 0 1rem;
+    margin-left: 2rem;
 }
 
 .input-icon {
@@ -21,20 +18,28 @@ body {
 }
 
 .header-input {
-    padding: 13px;
+    padding: 9px;
     width: 90%;
-    border-radius: 3rem;
+    border-radius: 5px;
     border: none;
+    border: 2px solid var(--grey);
+    font-size: var(--medium-font-size);
+}
+
+.header-icon {
+    color: var(--fa-primary-color);
+    font-size: 1.5rem;
 }
 
 .basic {
     border: 0px;
 }
-.badge .number-one{
+
+.badge .number-one {
     background-color: var(--badge-bg-color);
 }
+
 .number-one {
-    
     height: 1.3rem;
     width: 1.3rem;
     border-radius: 50%;
@@ -49,20 +54,29 @@ body {
     text-align: center;
 }
 
-.link-button {
-    text-decoration: none;
-    background-color: var(--white);
-    color: var(--black);
-    padding: 1rem;
-    margin: 1rem;
+.banner {
+    position: relative;
 }
- .banner-text .shop-button{
+
+.banner-image {
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    left: 44rem;
+    bottom: 7rem;
+    width: 10rem;
+}
+
+.shop-button {
     background-color: var(--primary-color);
     color: var(--white);
     padding: 1rem;
     margin-top: 2rem;
     text-decoration: none;
     position: absolute;
+    border-radius: 5px;
     font-weight: var(--bolder-font-weight);
 }
 
@@ -71,24 +85,14 @@ body {
     padding: 0;
 }
 
-.btn-link .link-button {
-    color: var(--black);
-}
-
-.btn-link {
-    border: none;
-    padding: 0px;
-}
-
 .main-links {
     display: flex;
     justify-content: space-between;
-
 }
 
 .card-image {
     width: 100%;
-    height: 300px;
+    height: auto;
     object-fit: cover;
     object-position: bottom;
 }
@@ -96,17 +100,36 @@ body {
 .card {
     width: 20rem;
     margin: 0 1rem;
+    height: auto;
+}
+
+.section-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 1rem 1rem 0rem;
+}
+
+.underline {
+    height: 5px;
+    width: 14rem;
+    background-color: var(--grey);
 }
 
 .categories {
     display: flex;
     margin-top: 1rem;
     padding: 3rem;
-    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    align-items: flex-end;
+}
+
+.category {
+    cursor: pointer;
 }
 
 .card-title {
-    position: relative;
     bottom: 10rem;
     background-color: var(--primary-color);
     width: 100%;
@@ -119,14 +142,43 @@ body {
 
 .trending {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    padding: 5rem;
+    padding: 2rem 5rem 4rem 5rem;
+}
+
+.horizontal-card {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 35rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px var(--black);
+}
+
+.horizontal-card-image-container {
+    height: auto;
+}
+
+.horizontal-card-content {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.horizontal-card-content-footer {
+    width: 100%;
+    flex-direction: column;
 }
 
 .trend-card-title {
     font-size: var(--larger-font-size);
     font-weight: var(--bolder-font-weight);
     margin: 1rem 0;
+}
+
+.treding-card-text-content {
+    text-align: justify;
 }
 
 .trending-card {
@@ -137,19 +189,15 @@ body {
     padding: 4rem;
 }
 
-.banner-image {
-    width: 100%;
-}
-
-.banner-text {
-    position: absolute;
-    left: 10rem;
-    bottom: 5rem;
+.btn-link {
+    border-radius: 5px;
 }
 
 .horizontal-card-image {
-    width: 50%;
+    width: 100%;
+    height: auto;
 }
+
 
 .footer .card-footer-link-buy {
     padding: 8px;
@@ -173,7 +221,7 @@ body {
 
 .main-footer {
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--footer-bg-color);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -181,7 +229,17 @@ body {
 }
 
 .footer-text {
-    color: var(--white);
+    color: var(--primary-color);
     font-weight: var(--bolder-font-weight);
     margin-top: 1rem;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icon {
+    color: var(--fa-primary-color);
+    font-size: 2.5rem;
+    padding: 5px;
 }

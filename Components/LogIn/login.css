@@ -1,16 +1,17 @@
 .login-container {
     text-align: left;
-    width: 25%;
+    width: 24rem;
     text-align: center;
-    box-shadow: 2px 2px 10px var(--primary-color);
+    box-shadow: 2px 2px 8px var(--black);
     margin: auto;
-    margin-top: 15rem;
-    padding: 3rem;
+    margin-top: 6rem;
+    padding: 1.5rem;
     font-size: var(--large-font-size);
+    border-radius: 10px;
 }
 
 .header-large {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .input {
@@ -53,17 +54,23 @@
     color: var(--blue);
 }
 
+.login-btn {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .btn {
-    width: 90%;
     margin: 1rem auto;
 }
 
-.home-page-link{
+
+.home-page-link {
     padding: 0.8rem 7rem;
     text-decoration: none;
     color: var(--white);
 }
-.signup-link{
-    text-decoration:none;
+
+.signup-link {
+    text-decoration: none;
     color: var(--black);
 }

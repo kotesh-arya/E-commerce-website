@@ -1,25 +1,60 @@
 @import url("https://handy-ui.netlify.app/css/components.css");
 @import url("/colours.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 .nav-header {
     padding: 0.5rem;
+    color: var(--primary-color);
+}
+
+.site-title {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.title-caption {
+    color: var(--black);
+}
+
+.header-shop-link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header-shop-link:hover {
+    color: var(--primary-color);
 }
 
 .main-links {
     display: flex;
     justify-content: space-between;
 }
-.nav-icon-link{
+
+.nav-icon-link {
     text-decoration: none;
     margin: 0 5px;
 }
 
 .header-icon {
     margin: 0.5rem;
+    color: var(--fa-primary-color);
 }
-.navigation-container{
+
+.header-icon:hover {
+    color: var(--primary-color);
+}
+
+.navigation-container {
     padding: 0.5rem;
+    background-color: var(--white);
 }
+
 .home-main-content {
     height: 65vh;
     display: flex;
@@ -48,9 +83,8 @@
     color: var(--primary-color);
 }
 
-.header-large {
-    font-size: 3rem;
-    color: var(--black);
+.header-text {
+    color: var(--primary-color);
 }
 
 .log-in-btn {

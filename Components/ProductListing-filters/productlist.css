@@ -1,5 +1,5 @@
 body {
-    background-color: var(--example-bg-color);
+    background-color: var(--page-bg-color);
 }
 
 .logo-input {
@@ -12,6 +12,7 @@ body {
     align-items: center;
     width: 60%;
     padding: 0 1rem;
+    margin-left: 2rem;
 }
 
 .input-icon {
@@ -21,18 +22,27 @@ body {
 }
 
 .header-input {
-    padding: 13px;
+    padding: 9px;
     width: 90%;
-    border-radius: 3rem;
+    border-radius: 5px;
     border: none;
+    border: 2px solid var(--grey);
+    font-size: var(--medium-font-size);
+}
+
+.header-icon {
+    color: var(--fa-primary-color);
+    font-size: 1.5rem;
 }
 
 .basic {
-    border: 0px;
+    border: 0;
 }
-.badge .number-one{
+
+.badge .number-one {
     background-color: var(--badge-bg-color);
 }
+
 .number-one {
     background-color: var(--alert-primary);
     height: 1.3rem;
@@ -49,21 +59,13 @@ body {
     text-align: center;
 }
 
-.link-button {
-    text-decoration: none;
-    background-color: var(--white);
-    color: var(--black);
-    padding: 1rem;
-    margin: 1rem;
-}
-
 .nav-icon-link {
     text-decoration: none;
     padding: 0;
 }
 
 .btn-link .link-button {
-    color: var(--black);
+    color: var(--white);
 }
 
 .btn-link {
@@ -74,7 +76,7 @@ body {
 .filter-section-col {
     display: flex;
     flex-direction: column;
-    width: 40rem;
+    width: 20%;
     background-color: var(--white);
 }
 
@@ -83,8 +85,9 @@ body {
 }
 
 .rating-container {
-    padding: 0.6rem 3rem;
+    padding: 0.6rem 1rem;
     font-size: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 .rating-item {
@@ -93,8 +96,9 @@ body {
 }
 
 .sorting-container {
-    padding: 0.6rem 3rem;
+    padding: 0.6rem 1rem;
     font-size: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 .sorting-item {
@@ -106,12 +110,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    margin-top: 1rem;
     align-items: center;
 }
 
 .price-slider {
     display: flex;
     flex-direction: column;
+    padding: 1rem 1.5rem;
+    margin: 0 1rem 0 0;
 }
 
 .slider-ranges {
@@ -123,13 +130,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.6rem 3rem;
+    padding: 0.6rem 1rem;
+    margin-left: 0.5rem;
     font-size: 1.5rem;
 }
 
 .category-one,
 .category-two {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .category-check {
@@ -141,19 +149,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 80%;
 }
 
 .product-filter-container {
     display: flex;
     flex-direction: row;
-
 }
 
 .product-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     margin-top: 2rem;
-    margin-left: 4rem;
 }
 
 .product-header {
@@ -161,33 +169,89 @@ body {
 }
 
 .card {
-    margin: 1rem;
+    margin: 1.5rem;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
 }
 
 .badge-card {
     width: 20rem;
 }
 
+.label {
+    padding: 10px;
+    height: 2rem;
+    width: 3.5rem;
+}
+
 .label-icon {
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.card-image {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-content {
+    margin: 0 2rem;
 }
 
 .card-title {
-    font-size: var(--larger-font-size);
-    font-weight: var(--bolder-font-weight);
+    color: var(--fa-primary-color);
+}
+
+.card-footer {
+    width: 100%;
+}
+
+.discount {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.card-button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-button-link {
+    text-decoration: none;
+    color: var(--white);
+    padding: 0.8rem 3rem;
 }
 
 .main-footer {
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: var(--footer-bg-color);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+
+.footer a {
+    margin: 0;
+}
+
 .footer-text {
-    color: var(--white);
+    color: var(--primary-color);
     font-weight: var(--bolder-font-weight);
     margin-top: 1rem;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icon {
+    color: var(--fa-primary-color);
+    font-size: 2.5rem;
+    padding: 5px;
 }

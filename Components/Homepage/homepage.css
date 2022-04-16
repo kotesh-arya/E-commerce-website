@@ -40,7 +40,6 @@
 }
 
 .number-one {
-
     height: 1.3rem;
     width: 1.3rem;
     border-radius: 50%;
@@ -54,8 +53,6 @@
     color: var(--white);
     text-align: center;
 }
-
-
 
 .banner {
     position: relative;
@@ -126,6 +123,10 @@
     justify-content: space-around;
     position: relative;
     align-items: flex-end;
+}
+
+.category {
+    cursor: pointer;
 }
 
 .card-title {

@@ -154,7 +154,7 @@
     width: 35rem;
     margin: 1rem;
     border-radius: 10px;
-    box-shadow: 2px 2px 8px var(--black);
+    box-shadow: 3px 3px 8px var(--grey);
 }
 
 .horizontal-card-image-container {
@@ -187,6 +187,10 @@
     width: 40%;
     background-color: var(--white);
     padding: 4rem;
+}
+
+.trend-card-btn {
+    cursor: pointer;
 }
 
 .btn-link {

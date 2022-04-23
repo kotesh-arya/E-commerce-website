@@ -76,7 +76,7 @@ body {
     width: 40rem;
     margin-top: 2rem;
     border-radius: 10px;
-    box-shadow: 2px 2px 8px var(--black);
+    box-shadow: 3px 3px 8px var(--grey);
 }
 
 .horizontal-card-image-container {

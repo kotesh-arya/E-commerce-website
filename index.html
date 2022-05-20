@@ -5,36 +5,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kotesh Mudila">
-    <meta name="description" content="Daily Fashion - Landing Page">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Components/Homepage/homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Daily Fashion</title>
+    <title>Daily Fashion : Home</title>
 </head>
 
 <body>
     <div class="navigation-container">
-        <div class="nav-header">
-
+        <div>
+            <div class="nav-header">
+                <a class="site-title" href="#">
+                    <h1>DAILY FASHION</h1>
+                </a>
+            </div>
         </div>
-
+        <h1 class="header-text header-medium shop-now"><a class="header-shop-link"
+                href="/Components/ProductListing-filters/productlist.html">SHOP NOW</a></h1>
+        <div class="search-input-container"><input class="header-input" placeholder="Type here..." type="search">
+            <img class=" input-icon" src="https://img.icons8.com/material/28/000000/search--v1.png" />
+        </div>
         <nav class="main-links">
-            <a class="nav-icon-link" href="#"> <i class="fa fa-heart fa-lg header-icon " aria-hidden="true"></i></a>
-            <a class="nav-icon-link" href="#"><i class="fa fa-shopping-cart fa-lg header-icon "
-                    aria-hidden="true"></i></a>
-            <a class="nav-icon-link" href="#"><i class="fa fa-user fa-lg header-icon" aria-hidden="true"></i></a>
+            <a class="nav-icon-link" href="/Components/Wishlist/wishlist.html">
+                <div class="badge"><i class="fa fa-heart fa-lg header-icon home-nav-icon" aria-hidden="true"></i>
+                    <div class="number-one">3</div>
+                </div>
+            </a>
+            <a class="nav-icon-link" href="/Components/Cart/cart.html">
+                <div class="badge"><i class="fa fa-shopping-cart fa-lg header-icon home-nav-icon"
+                        aria-hidden="true"></i>
+                    <div class="number-one">1</div>
+                </div>
+            </a>
+            <a class="nav-icon-link" href="/Components/LogIn/login.html"><i
+                    class="fa fa-user fa-lg header-icon home-nav-icon" aria-hidden="true"></i></a>
         </nav>
     </div>
-    <main class="home-main-content">
-        <h1 class="header-text header-huge ">
-            DAILY FASHION
-        </h1>
-        <h1 class="title-caption">Up-style your look with our wide range of fashion accessories</h1>
-        <div class="main-buttons">
-            <a class="link-buttons" href="/Components/SignUp/signup.html">SIGN UP</a>
-            <a class="link-buttons log-in-btn" href="/Components/LogIn/login.html">LOG IN</a>
+    <main class="main-section">
+
+        <a href="/Components/ProductListing-filters/productlist.html">
+            <div class="banner-container">
+                <div class="banner">
+                    <img class="banner-image"
+                        src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-FreshofftheRunway-premiumbrands-upto30.jpg"
+                        alt="man and woman laughing at each other">
+
+                </div>
+            </div>
+        </a>
+        <div class="section-heading">
+            <h1 class="header-extra-large ">CATEGORIES</h1>
+            <div class="underline"></div>
+        </div>
+        <div class="categories">
+            <div class="card category">
+                <a href="/Components/ProductListing-filters/productlist.html">
+                    <img src="/Components/Homepage/HomePage-assets/watch-latest.jpg" alt="watch" class="card-image">
+                    <div class="card-title">watches</div>
+                </a>
+            </div>
+
+            <div class="card category">
+                <a href="/Components/ProductListing-filters/productlist.html">
+                    <img src="/Components/Homepage/HomePage-assets/glasses-latest.webp" alt="goggles"
+                        class="card-image">
+                    <div class="card-title">Goggles</div>
+                </a>
+            </div>
+
+            <div class="card category">
+                <a href="/Components/ProductListing-filters/productlist.html">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXRURPxWVQ1IfkDPDTpvcnu2hb2SJ-FY644U-9byhOtFPMeUqzJuXFY92tlN9H_enEdk&usqp=CAU"
+                        alt="bag" class="card-image">
+                    <div class="card-title">Bags</div>
+                </a>
+            </div>
+
+            <div class="card category">
+                <a href="/Components/ProductListing-filters/productlist.html">
+                    <img src="/Components/Homepage/HomePage-assets/category-image-belt.jpg" alt="belt"
+                        class="card-image">
+                    <div class="card-title">Belts</div>
+                </a>
+            </div>
+
+            <div class="card category">
+                <a href="/Components/ProductListing-filters/productlist.html">
+                    <img src="/Components/Homepage/HomePage-assets/category-image-footwear.jpg" alt="shoes"
+                        class="card-image">
+                    <div class="card-title">Footwear</div>
+                </a>
+            </div>
+
+        </div>
+        <div class="section-heading">
+            <h1 class="header-extra-large ">TRENDING</h1>
+            <div class="underline"></div>
+        </div>
+        <div class="trending">
+            <div class=" horizontal-card ">
+                <div class="horizontal-card-image-container">
+                    <img class="horizontal-card-image"
+                        src="/Components/Homepage/HomePage-assets/trending-image-sherlock-cap.jpg " alt="horizontal" />
+                </div>
+                <div class="horizontal-card-content">
+                    <div class=" trend-card-title">
+                        Sherlock's Hat
+                    </div>
+                    <p class="treding-card-text-content">
+                        Transform yourself into a detective look with this Sherlock's Hat.By the comfort you get in this
+                        winter, you can pull out your style with a lengthy coat.
+                    </p>
+                    <button class="btn trend-card-btn btn-link"><a class="link-button"
+                            href="/Components/ProductListing-filters/productlist.html">VIEW PRODUCT</a></button>
+                </div>
+            </div>
+            <div class=" horizontal-card ">
+                <div class="horizontal-card-image-container">
+                    <img class="horizontal-card-image"
+                        src="/Components/Homepage/HomePage-assets/trending-image-scarf.jpg" alt="horizontal" />
+                </div>
+                <div class="horizontal-card-content">
+                    <div class=" trend-card-title">
+                        Johnny depp scarf
+                    </div>
+                    <p class="treding-card-text-content">
+                        The best companion for this freezing winter, which gives you a rugged look from out side and
+                        cozy
+                        warm feel from inside. Be a Double-game player.
+                    </p>
+                    <button class="btn trend-card-btn btn-link"><a class="link-button"
+                            href="/Components/ProductListing-filters/productlist.html">VIEW PRODUCT</a></button>
+                </div>
+            </div>
         </div>
     </main>
+    <div class="main-footer">
+        <div class="footer-text">
+            <h1 class="header-text header-semi-large">Design By Kotesh Mudila</h1>
+        </div>
+        <div class="footer-icons"> <a href="https://github.com/kotesh-arya"><i class="fa fa-github fa-3x footer-icon"
+                    aria-hidden="true"></i></a>
+            <a href="https://twitter.com/Kotesh_Mudila"><i class="fa fa-twitter fa-3x  footer-icon"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/koteswara-rao-mudila-7aa740159/"><i
+                    class="fa fa-linkedin fa-3x  footer-icon" aria-hidden="true"></i></a></div>
+    </div>
 </body>
 
 </html>

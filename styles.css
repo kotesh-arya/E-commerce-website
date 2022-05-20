@@ -45,6 +45,10 @@
     margin: 0.5rem;
     color: var(--fa-primary-color);
 }
+.home-nav-icon{
+   color: red;
+    /* font-size: 1.5rem; */
+}
 
 .header-icon:hover {
     color: var(--primary-color);
